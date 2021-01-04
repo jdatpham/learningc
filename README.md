@@ -1,4 +1,7 @@
-# learningc
-This repository is use to C programming
-My name is Jason and I like to learn
+# Learning C Programming
+
+My name is Jason and I like to learn C programming
+
+## Lesson 1
+Learn how to use `printf()` funtion
 
