@@ -6,8 +6,11 @@ int main(void) {
 
     // Get the temperature input in Celcius
     scanf("%lf", &temp_c);
+
     // Convert Celcisus to Fahrenheit
     temp_f = temp_c * 9.0 / 5.0 + 32.0;
+
+    // print Fahrenheit
     printf("%.1lf\n", temp_f);
         
     return 0;
