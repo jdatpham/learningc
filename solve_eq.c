@@ -21,6 +21,7 @@ int main(void) {
     printf(" <=> %.2fx = %.2f\n", a, c-b);
     // x = (c-b)/a
     printf(" <=> x = %.2f/%.2f  \n", c-b, a);
+    // x = result
     printf(" <=> x = %.2f\n", (c - b)/a);
 
 
