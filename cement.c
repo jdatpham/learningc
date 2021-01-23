@@ -6,7 +6,7 @@ int main(void) {
 
     // input cement pounds
     scanf("%lf", &cement);
-    // solves number of bags
+    // solves number of bags. Each bag costs $120
     bags = (int) cement/120 + 1;
     cost = bags * 45;
     // prints out cost
