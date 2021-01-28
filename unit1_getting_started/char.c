@@ -1,3 +1,4 @@
+// Print multiple characters
 #include <stdio.h>
 
 void print_line(int m, int n, char letter){

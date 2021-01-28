@@ -1,4 +1,7 @@
+// Convert double to intger
+// Calculate the cement cost based on weight in pounds
 #include <stdio.h>
+
 int main(void) {
     double cement;
     int bags;

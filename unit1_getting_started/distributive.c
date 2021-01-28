@@ -1,3 +1,4 @@
+// Solve the distributive property of multipication and addition
 # include<stdio.h>
 
 int main(void) {

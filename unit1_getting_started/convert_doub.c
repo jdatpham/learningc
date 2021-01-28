@@ -1,3 +1,4 @@
+// Finds projected population based on current population and growth rate
 #include <stdio.h>
 int main(void) {
     double grow_rate;
