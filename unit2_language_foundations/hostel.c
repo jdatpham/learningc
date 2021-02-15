@@ -11,7 +11,7 @@ int main(void) {
     }
     cost = 10 + hour * 5;
 
-    if(cost>53){
+    if(cost > 53){
         cost = 53;
     }
     
