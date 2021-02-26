@@ -1,22 +1,21 @@
 #include <stdio.h>
+
 int main(void) {
-    int target;
+
     int i;
-    printf("Please enter a target number: ");
-    scanf("%d", &target);
-    if (target >= 0) 
-    {
-        for (i=0; i<target; i++) 
-        {
-            if (i%5 == 0) 
-            {
-                printf("%d  - remainder %d\n", i, i%5);
-            }
+    int cities;
+    int big_cities_to_count = 0;
+    int popl;
+
+    
+    scanf("%d", &cities);
+    for(i = 0; i < cities; i++){
+        scanf("%d", &popl);
+        if(popl > 10000){
+            big_cities_to_count++;
         }
-    } 
-    else 
-    {
-        printf("Nothing to do!\n");
     }
+   
+    printf("%d\n", big_cities_to_count);
     return 0;
 }
