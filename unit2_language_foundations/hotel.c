@@ -24,7 +24,6 @@ int main(void) {
         price = 30 + luggage_cost;
     }
     
-    
     printf("%d\n", price);
 
     return 0;
