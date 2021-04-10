@@ -1,5 +1,6 @@
 #include <stdio.h>
-  // includeing the start
+// Including the start
+
 int main(void){
     //intger main void
     int i;
