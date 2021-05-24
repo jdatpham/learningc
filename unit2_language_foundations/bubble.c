@@ -23,7 +23,7 @@ int main(void) {
                 // arr[j] = 19
                 printf("swap2 arr[%d]= %d with arr[%d]= %d\n\n", i, arr[i], j, arr[j]);
             }
-        }
+        }                                                                
         for(k = 0; k < n; k++){
             printf("%d ", arr[k]);
         }
