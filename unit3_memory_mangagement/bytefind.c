@@ -81,18 +81,18 @@ int main(void){
     if(cinput == 'i'){
 
         //number of bytes depending on the option
-        num = 4*input;
+        num = sizeof(int)*input;
         convert_byte_to_human_readble(num);
 
     }
     else if(cinput == 'd'){
 
-        num = 8 * input;
+        num = sizeof(double) * input;
         convert_byte_to_human_readble(num);
     }
         else if(cinput == 'c'){
 
-         num = input;
+         num = sizeof(char) * input;
         convert_byte_to_human_readble(num);
     }
     
