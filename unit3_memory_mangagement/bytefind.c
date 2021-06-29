@@ -73,7 +73,6 @@ int main(void){
     
     int input;
     char cinput;
-    int final = 0;
     int num = 0;
     
     

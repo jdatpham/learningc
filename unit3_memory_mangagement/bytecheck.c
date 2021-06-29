@@ -4,18 +4,22 @@ int main(void){
     int time;
     char word;
     int i;
-    int final;
+    int final = 0;
     scanf("%d", &time);
     for(i=0;i<time;i++){
-    scanf("%d %c", &in, word);
+    scanf("%d %c", &in, &word);
     if(word == 'i'){
-       final = in * 4; 
+       final = final + in * 4; 
     }
     else if(word == 'c'){
-        final = in * 1;
+        final = final + in * 1;
     }
     else if(word == 'd'){
-        final = in * 8;
+        final = final + in * 8;
+    }
+    else{
+        printf("Invalid tracking code type\n");
+        return 0;
     }
     }
     printf("%d bytes\n", final);
