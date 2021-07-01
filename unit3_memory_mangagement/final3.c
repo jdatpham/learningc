@@ -27,11 +27,14 @@ int main(void){
     //3) Do reverse array 1
     ptr1 = word1;
     ptr2 = word2;
-    // .
+    
+    //4) Save original word 1
     for(int i = 0; i < 100; i++){
         word1_org[i] = word1[i];
     }
-
+    
+    // 5) Call the function isreverse() to check if word1 is reverse of word2
+    // return 0 if yes. 1 if no.
     int reversed = isreverse(ptr1, ptr2, wordlen1, wordlen2);
     if(reversed == 0){
         printf("%s is the reverse of %s\n", word1_org, word2);
