@@ -24,7 +24,7 @@ int main(void){
         wordlen2++;
     }
     
-    //3) Do reverse array 1
+    //3) Initialize the pointers
     ptr1 = word1;
     ptr2 = word2;
     
