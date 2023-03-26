@@ -1,11 +1,17 @@
 #include <stdio.h>
-#include <math.h>
-int main() {
-    int user;
-    
-    scanf("%d", &user);
-    printf("%.8lf\n", sqrt(user));
-    printf("%.10lf\n",exp(1));
-    printf("gcc -std=c11 -Wall -fmax-errors=10 program.c -o  program -lm\n");
-    return 0;
+#include "weatherstats.h"
+
+int main(void) {
+	double temperatures[7] = {6.9, 12.3, 9.0, 15.3, 9.8, 1.8, 0.3};
+	double average = averageTemp(temperatures, 7);
+	double max = maxTemp(temperatures, 7); 
+	printf("Average 7-day temp: %.2lf\n", average);
+	printf("Highest temp: %.2lf\n", max);
+	printf("Lowest temperature: %.2lf\n", minTemp(temperatures,7));
+
+
+    averageTemp(temperatures, 7);
+    averageTemp(temperatures, 7);
+    maxTemp(temperatures, 7);
+	return 0;
 }
